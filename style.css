@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./img/pngtree-blockchain-s-new-virtual-currency-exchange-a-3d-rendered-stack-of-image_3623693.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.top-container{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-container h1{
+ color:gold;
+ font-size: 40px;
+}
+.top-container p{
+    font-size: 30px;
+    color: goldenrod;
+}
+.amount{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.amount .amount-number{
+   width: 300px;
+   height: 30px;
+   padding-left: 20px;
+   color: black;
+   font-size: 16px;
+}
+.amount label{
+    margin-right: 250px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: goldenrod;
+}
+.amount .from-country{
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.amount .to-country{
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.exchange-rate{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.exchange-rate p{
+color: goldenrod;
+font-size: 28px;
+}
+.exchange-rate .rate-number{
+    color: gold;
+    font-size: 60px;
+}
+.exchange-rate .convert{
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    background-color:rgba(31, 28, 28, 0.445);
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
